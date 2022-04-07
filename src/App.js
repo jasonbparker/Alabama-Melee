@@ -10,7 +10,7 @@ function App() {
         <nav>
           <div className="navLeft">
             <ul>
-              <li>1</li>
+              <li>132132</li>
               <li>1</li>
               <li>1</li>
               <li>Staff</li>
