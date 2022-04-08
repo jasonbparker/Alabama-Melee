@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -22,16 +22,14 @@
 /*******************************************/
 
 body {
-  background-color:bisque;
-
+  background-color: bisque;
 }
-li{
+li {
   list-style-type: none;
   float: left;
   padding: 1em;
   text-align: center;
 }
-
 
 /******************************************
 /* LAYOUT
@@ -44,69 +42,64 @@ header {
   border: solid orange 3px;
 }
 
-nav div{
+nav div {
   float: left;
   height: 100%;
 }
-nav li{
+nav li {
   display: inline;
 }
-.navLeft{
+.navLeft {
   width: 40%;
   /* border: solid red 1px; */
 }
-.navCenter{
+.navCenter {
   width: 20%;
   /* border: solid blue 1px; */
 }
-.navCenter img{
+.navCenter img {
   max-width: 80%;
   max-height: 80%;
   object-fit: contain;
 }
-.navCenter img{
+.navCenter img {
   height: 40%;
 }
 
 /* main */
-main{
+main {
   height: 60vh;
   border: solid orangered 1px;
 }
-main section{
+main section {
   float: left;
   padding: 2.5%;
 }
-    /* mainLeft */
-.mainLeft{
+/* mainLeft */
+.mainLeft {
   height: 100%;
   width: 70%;
   border: solid orangered 1px;
 }
-.mainLeft div{
+.mainLeft div {
   float: left;
   width: 100%;
 }
-      /* mLTop */
-      /* mLMiddle */
-      /* mLBottom */
+/* mLTop */
+/* mLMiddle */
+/* mLBottom */
 
-
-    /* mainRight */
-.mainRight{
+/* mainRight */
+.mainRight {
   height: 100%;
   width: 30%;
   border: solid purple 1px;
 }
-.mainRight ul{
-  
+.mainRight ul {
 }
-      /* mRTop */
-      /* mRMiddle */
-      /* mRBottom */
-
-
-
+/* mRTop */
+/* mRMiddle */
+/* mRBottom */
 
 /* footer */
 footer {
@@ -115,46 +108,15 @@ footer {
   text-align: center;
 }
 
-footer ul{
+footer ul {
   display: inline-block;
   margin: 0 auto;
   text-align: center;
 }
 
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* .App-logo {
   height: 40vmin;
