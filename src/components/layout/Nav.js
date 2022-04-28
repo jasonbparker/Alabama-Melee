@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
+//import { Dropdown } from "react-bootstrap";
 
 /**
  * Defines the menu for this application.
@@ -18,7 +19,12 @@ export default function Nav() {
             <ul>
               <li>1</li>
               <li>1</li>
-              <li>1</li>
+              <li>
+                <Link className="nav-link" to="/pr">
+                  <span className="oi oi-dashboard" />
+                  power ranking
+                </Link>
+              </li>
               <li>Staff</li>
               <li>Project M</li>
             </ul>
@@ -30,6 +36,17 @@ export default function Nav() {
           <div className="navRight">
             <ul>
               <li>Regions</li>
+              {/* <Dropdown>
+                <Dropdown.Toggle variant="success" id="dropdown-basic">
+                  Regions
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="/regions/bham">Bham</Dropdown.Item>
+                  <Dropdown.Item href="/regions/hsv">Hsv</Dropdown.Item>
+                  <Dropdown.Item href="/regions/ttown">Ttown</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown> */}
               <li>
                 <Link className="nav-link" to="/">
                   <span className="oi oi-dashboard" />
@@ -54,6 +71,7 @@ export default function Nav() {
                   bham
                 </Link>
               </li>
+
               <li>Archives</li>
             </ul>
           </div>

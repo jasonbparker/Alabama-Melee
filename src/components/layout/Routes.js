@@ -1,25 +1,19 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Bham from "../regions/Bham";
 import Hsv from "../regions/Hsv";
 import Ttown from "../regions/Ttown";
 import Dashboard from "../dashboard/Dashboard";
+import Pr from "../dashboard/Pr";
 
-export default function Routes() {
+export default function Routes1() {
   return (
-    <Switch>
-      <Route exact={true} path="/">
-        <Dashboard />
-      </Route>
-      <Route exact={true} path="/regions/bham">
-        <Bham />
-      </Route>
-      <Route exact={true} path="/regions/hsv">
-        <Hsv />
-      </Route>
-      <Route exact={true} path="/regions/ttown">
-        <Ttown />
-      </Route>
-    </Switch>
+    <Routes>
+      <Route path="/" exact element={<Dashboard />} />
+      <Route path="/regions/bham" exact element={<Bham />} />
+      <Route path="/regions/hsv" exact element={<Hsv />} />
+      <Route path="/regions/ttown" exact element={<Ttown />} />
+      <Route path="/pr" exact element={<Pr />} />
+    </Routes>
   );
 }

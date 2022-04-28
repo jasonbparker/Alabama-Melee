@@ -1,14 +1,12 @@
 import "./App.css";
 import Layout from "./components/layout/Layout";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Switch>
-      <Route path="/">
-        <Layout />
-      </Route>
-    </Switch>
+    <Routes>
+      <Route path="/" element={<Layout />} />
+    </Routes>
   );
 }
 

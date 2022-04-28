@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import Routes from "./Routes";
+import Routes1 from "./Routes";
 
 function Layout() {
   return (
@@ -10,7 +10,7 @@ function Layout() {
           <Nav />
         </div>
         <div className="col">
-          <Routes />
+          <Routes1 />
         </div>
       </div>
     </div>
